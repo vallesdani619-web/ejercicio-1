@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8ff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.caja {
+    width: 300px;
+    border: 3px solid #6c4bff;
+    border-radius: 10px;
+    padding: 25px;
+    background: white;
+}
+
+.caja h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.caja p {
+    margin: 10px 0;
+}
+
+.precio {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b1aff;
+}
+
+.precio.gratis {
+    color: #7c00ff;
+}
+
+.promo {
+    margin-top: 30px;
+    background: #6a00ff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+} 
